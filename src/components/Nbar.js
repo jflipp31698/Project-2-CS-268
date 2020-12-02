@@ -11,10 +11,12 @@ function Nbar() {
         <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#link">Link</Nav.Link>
         <Nav.Link href="#Login">Login</Nav.Link>
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <NavDropdown title="Departments" id="basic-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Biology</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Business</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Computer Science</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Mathamatics</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">English</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
         </NavDropdown>
