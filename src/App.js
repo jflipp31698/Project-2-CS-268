@@ -1,7 +1,15 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Nbar from './components/Nbar';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <div className="header">Hello World!</div>
+    <div className="App">
+      <header>
+        <Nbar/>
+        <h1>Hello</h1>
+      </header>
+    </div>
   )
 }
 
