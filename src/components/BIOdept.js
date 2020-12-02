@@ -6,7 +6,7 @@ class BIO extends Component {
       return (
         <div className="App">
         <header>
-            <h1>Eau Claire Biology Science Department</h1>
+            <h1>Eau Claire Biology Department</h1>
         </header>
         </div>
       );

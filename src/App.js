@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Nbar from './components/Nbar';
+import Home from './components/Home';
 import Login from './components/Login';
 import CSdept from './components/CSdept';
 import Mathd from './components/MATHdept';
@@ -16,25 +18,9 @@ class App extends Component {
     return (
     <Router>
         <div>
-          <h2>UWEC Freshman Home Page</h2>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <ul className="navbar-nav mr-auto">
-            <li><Link to={'/'} className="nav-link"> Home </Link></li>
-            <li><Link to={'/Login'} className="nav-link">Login</Link></li>
-            <li><Link to={'/CSDept'} className="nav-link">CS Deptartment</Link></li>
-            <li><Link to={'/ENGDept'} className="nav-link">English Deptartment</Link></li>
-            <li><Link to={'/MathDept'} className="nav-link">Math Deptartment</Link></li>
-            <li><Link to={'/BizDept'} className="nav-link">Business Deptartment</Link></li>
-            <li><Link to={'/BioDept'} className="nav-link">Biology Deptartment</Link></li>
-            <li><Link to={'/Calendar'} className="nav-link"> Calendar </Link></li>
-            <li><Link to={'/Chat'} className="nav-link"> Chat </Link></li>
-            <li><Link to={'/Contact'} className="nav-link"> Contact Us </Link></li>
-            <li><Link to={'/CSDept'} className="nav-link">CS Department</Link></li>
-          </ul>
-          </nav>
-          <hr />
+          <Nbar />
           <Switch>
-              <Route exact path='/' component={Login} />
+              <Route exact path='/' component={Home} />
               <Route path='/Login' component={Login} />
               <Route path='/CSDept' component={CSdept} />
               <Route path = '/ENGDept' component={ENG}/>

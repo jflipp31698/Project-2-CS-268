@@ -5,7 +5,7 @@ class ENG extends Component {
         return (
           <div className="App">
           <header>
-              <h1>Eau Claire Engilsh Department</h1>
+              <h1>Eau Claire English Department</h1>
           </header>
           </div>
         );

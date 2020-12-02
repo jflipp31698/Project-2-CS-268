@@ -1,29 +1,44 @@
-// import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css'
+ import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
+ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+ import 'bootstrap/dist/css/bootstrap.min.css'
+ import Login from './Login';
+ import CSdept from './CSdept';
+ import Mathd from './MATHdept';
+ import ENG from './ENGdept'; 
+ import biz from './BIZdept'; 
+ import bio from './BIOdept'; 
+ import Calendar from './Calendar';
+ import Chat from './Chat';
+ import Contact from './Contact';
 
-// function Nbar() {
-//   return (
-//       <Navbar bg="primary" variant="dark"expand="lg">
-//         <Navbar.Brand href="#home">UWEC Freshman Home Page</Navbar.Brand>
-//         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-//         <Navbar.Collapse id="basic-navbar-nav">
-//         <Nav className="mr-auto">
-//         <Nav.Link href="#home">Home</Nav.Link>
-//         <Nav.Link href="#link">Link</Nav.Link>
-//         <Nav.Link href="#Login">Login</Nav.Link>
-//         <NavDropdown title="Departments" id="basic-nav-dropdown">
-//         <NavDropdown.Item href="#action/3.1">Biology</NavDropdown.Item>
-//         <NavDropdown.Item href="#action/3.2">Business</NavDropdown.Item>
-//         <NavDropdown.Item href="#action/3.3">Computer Science</NavDropdown.Item>
-//         <NavDropdown.Item href="#action/3.3">Mathamatics</NavDropdown.Item>
-//         <NavDropdown.Item href="#action/3.3">English</NavDropdown.Item>
-//         <NavDropdown.Divider />
-//         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-//         </NavDropdown>
-//         </Nav>
-//         </Navbar.Collapse>
-//       </Navbar> 
-//   )
-// }
+ function Nbar() {
+  return (
+       <Navbar sticky="top" collapseOnSelect="true" bg="primary" variant="dark"expand="lg">
+         <Navbar.Brand href="#home">UWEC Freshman Home Page</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+         <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+        
+        <Nav.Link href="#link"><Link to={'/'} className="nav-link">Home</Link></Nav.Link>
 
-// export default Nbar;
+         <Nav.Link href="#link"><Link to={'/Login'} className="nav-link">Login</Link></Nav.Link>
+
+         <Nav.Link href="#link"><Link to={'/Calendar'} className="nav-link">Calendar</Link></Nav.Link>
+
+         <Nav.Link href="#link"><Link to={'/Chat'} className="nav-link">Chat</Link></Nav.Link>
+
+         <Nav.Link href="#link"><Link to={'/Contact'} className="nav-link">Contact</Link></Nav.Link>
+
+         <NavDropdown title="Departments" id="collasible-nav-dropdown">
+         <NavDropdown.Item href="/CSdept">Computer Science Department</NavDropdown.Item>
+        <NavDropdown.Item href="/BIOdept">Biology Department</NavDropdown.Item>
+        <NavDropdown.Item href="/BIZdept">Business Department</NavDropdown.Item>
+        <NavDropdown.Item href="/MATHdept">Mathematics Department</NavDropdown.Item>
+        <NavDropdown.Item href="/ENGdept">English Department</NavDropdown.Item>
+      </NavDropdown>
+         </Nav>
+         </Navbar.Collapse>
+       </Navbar> 
+   )
+ }
+ export default Nbar;

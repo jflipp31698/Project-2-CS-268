@@ -5,7 +5,7 @@ class MATH extends Component {
         return (
           <div className="App">
           <header>
-              <h1>Eau Claire Mathematics Science Department</h1>
+              <h1>Eau Claire Mathematics Department</h1>
           </header>
           </div>
         );
