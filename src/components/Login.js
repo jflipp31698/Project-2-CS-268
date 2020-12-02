@@ -30,7 +30,6 @@ export default function LoginPage(props){
                     </div>
                     <button id="login-btn" onClick={login}>Login</button> 
                 </div>
-                
-            </div>
-    )
+             </div>
+        )
 }

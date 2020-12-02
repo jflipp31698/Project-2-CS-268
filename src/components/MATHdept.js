@@ -1,19 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-//import Nbar from './components/Nbar';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React, {Component} from 'react'
 
-function MATH() {
-  return (
-    <div className="App">
-      <header>
-        {/* <Nbar/> */}
-        <h1>Eau Claire Math Department</h1>
-      </header>
-
-
-      
-    </div>
-  )
+class MATH extends Component {
+    render () {
+        return (
+          <div className="App">
+          <header>
+              <h1>Eau Claire Mathematics Science Department</h1>
+          </header>
+          </div>
+        );
+      }
 }
 
 export default MATH;

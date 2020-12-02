@@ -1,17 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Nbar from './components/Nbar';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React, { Component } from 'react'; 
 
-function BIZ() {
-  return (
-    <div className="App">
-      <header>
-        {/* <Nbar/> */}
-        <h1>Eau Claire Business Department</h1>
-      </header>
-      
-    </div>
-  )
+class  BIZ extends Component {
+    render () {
+        return (
+          <div className="App">
+          <header>
+              <h1>Eau Claire Biology Science Department</h1>
+          </header>
+          </div>
+        );
+      }
 }
 
 export default BIZ;
