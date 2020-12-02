@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header>
         <Nbar/>
-        <h1>Hello</h1>
+        <h1>Hello Freshman, welcome to UW-Eau Claire</h1>
       </header>
     </div>
   )
