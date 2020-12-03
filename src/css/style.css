@@ -3,3 +3,10 @@ body {
     padding: auto;
     background-color:lightgray;
 }
+.carousel-wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    max-height: 400px; 
+    color: white; 
+  }
