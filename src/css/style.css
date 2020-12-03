@@ -10,3 +10,7 @@ body {
     max-height: 400px; 
     color: white; 
   }
+
+  .header{
+      text-align: center; 
+  }

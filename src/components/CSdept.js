@@ -7,7 +7,9 @@ class Compsi extends Component {
         return (
           <div className="ComputerScience">
           <header>
+          <div className="header">
               <h1>Eau Claire Computer Science Department</h1>
+              </div>
           </header>
           <br></br>
           <h2>
