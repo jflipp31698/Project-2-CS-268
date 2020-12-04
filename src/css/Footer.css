@@ -1,0 +1,34 @@
+
+*{
+    margin: auto;
+    padding: auto;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    background-color:#404041;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.title {
+    color: #edac1a;
+}
+
+.info {
+    color: lightgray;
+}
+
+.slogan {
+    color: #edac1a;
+}
+
+.and {
+    color: #3b4d96;
+}

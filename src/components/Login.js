@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {useSelector} from 'react-redux';
 import '../css/Login.css';
 
 
@@ -16,6 +15,7 @@ export default function LoginPage(props){
       console.log(password);     
     }
     return(
+            
             <div id="login-container">
                 <div id="login-header">UWEC Freshman Connections</div>
                 <div id="login-form-container">

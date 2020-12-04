@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Nbar from './components/Nbar';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import Login from './components/Login';
 import CSdept from './components/CSdept';
@@ -31,6 +32,7 @@ class App extends Component {
               <Route path='/Chat' component={Chat} />
               <Route path='/Contact' component={Contact} />
           </Switch>
+          <Footer/>
         </div>
       </Router>
     );
