@@ -1,9 +1,8 @@
- import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
- import { Link } from 'react-router-dom';
- import 'bootstrap/dist/css/bootstrap.min.css'
+import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-
- function Nbar() {
+function Nbar() {
   return (
        <Navbar sticky="top" collapseOnSelect="true" bg="primary" variant="dark" expand="lg">
          <Navbar.Brand href="#home">UWEC Freshman Home Page</Navbar.Brand>
