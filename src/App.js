@@ -13,8 +13,8 @@ import Calendar from './components/Calendar';
 import Chat from './components/Chat';
 import Contact from './components/Contact';
 
-
 class App extends Component {
+
   render() {
     return (
     <Router>

@@ -5,9 +5,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function Nbar() {
   return (
        <Navbar sticky="top" collapseOnSelect="true" bg="primary" variant="dark" expand="lg">
-         <Navbar.Brand href="#home">UWEC Freshman Home Page</Navbar.Brand>
+
+         <Navbar.Brand href="#home" style={{left: "0"}} >UWEC Freshman Home Page</Navbar.Brand>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
          <Navbar.Collapse id="basic-navbar-nav">
+
         <Nav className="mr-auto">
         
         <Nav.Link href="#link"><Link to={'/'} className="nav-link">Home</Link></Nav.Link>
