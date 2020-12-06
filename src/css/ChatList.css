@@ -1,0 +1,26 @@
+.chat {
+    background-color: #b3b3ff;
+    border: 5px #3b4d96 solid;
+    border-radius: 20px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.chat:hover {
+    background-color: white;
+    border-color: #007bff;
+}
+
+
+h4 {
+    padding: 10px;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+}
+
+.check {
+    margin-left: 15px;
+}
