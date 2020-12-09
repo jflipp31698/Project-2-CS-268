@@ -1,20 +1,20 @@
 body {
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
     background-color:lightgray;
 }
+
 .carousel-wrapper {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
     max-height: 400px; 
     color: white; 
-  }
+}
 
-  .header{
+.header {
       text-align: center; 
-  }
+}
 
-  .login-nav {
-      color: red;
-  }

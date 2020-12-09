@@ -11,7 +11,9 @@ function Footer() {
                     <h2>Eau Claire</h2>
                 </div>
                 <div className="info">
-                    Phone Number, Location, email... etc
+                    <div className="location">
+                        <p className="locationP">105 Garfield Avenue | P.O. Box 4004 | Eau Claire, WI 54702-4004 | 715-836-4636</p>
+                    </div>
                 </div>
             </div>
             <div className="column">
