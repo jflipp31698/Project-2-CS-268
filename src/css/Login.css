@@ -52,11 +52,15 @@ html, body {
     width: 100px;
     margin: 25px 0px;
     cursor: pointer;
-    background-color: #edac1a;
+    background-color: white;
     border: none;
     border-radius: 25px;
     padding: 5px;
     color: #3b4d96;
+  }
+
+  #login-btn:hover {
+    background-color: #edac1a;
   }
   
   #login-header{

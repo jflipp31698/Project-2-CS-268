@@ -16,4 +16,6 @@ html, body {
     background-color: rgb(255, 255, 255, 0.8);
     border: none;
     min-width: 700px;
+    min-height: 400px;
 }
+
