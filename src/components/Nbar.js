@@ -6,7 +6,7 @@ function Nbar() {
   return (
        <Navbar sticky="top" collapseOnSelect="true" bg="primary" variant="dark" expand="lg">
 
-         <Navbar.Brand href="#home" style={{left: "0"}} >UWEC Freshman Home Page</Navbar.Brand>
+         <Navbar.Brand href="#home" style={{left: "0"}} >UWEC Freshman Connect</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 

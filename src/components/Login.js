@@ -15,11 +15,10 @@ export default function LoginPage(props){
       console.log(password);     
     }
     return(
-            
-            <div id="login-container">
-                <div id="login-header">UWEC Freshman Connections</div>
-                <div id="login-form-container">
-                    <div id="login-form-header">LOGIN</div>
+        <div id="login-container">
+            <div id="login-header">UWEC Freshman Connect</div>
+            <div id="login-form-container">
+                <div id="login-form-header">LOGIN</div>
                     <div className="login-form-input-grp">
                         <label className="login-label">Email: </label>
                         <input className="login-input" type="textbox" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
@@ -31,5 +30,5 @@ export default function LoginPage(props){
                     <button id="login-btn" onClick={login}>Login</button> 
                 </div>
              </div>
-        )
+    )
 }

@@ -25,7 +25,7 @@ class Contact extends Component {
                 <Form.Group controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Subscribe to monthly email announcements" />
                 </Form.Group>
-                <Button variant="success" type="submit">
+                <Button className="button" type="submit">
                 Submit
                 </Button>
             </Form>
