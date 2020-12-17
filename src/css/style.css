@@ -4,17 +4,11 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     background-color:lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.carousel-wrapper {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-    max-height: 400px; 
-    color: white; 
-}
 
 .header {
-      text-align: center; 
+    text-align: center; 
 }
 
