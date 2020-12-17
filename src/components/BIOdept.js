@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Container, Col, Row} from 'react-bootstrap'; 
-import ScrollableAnchor from 'react-scrollable-anchor'; 
 import { Carousel } from 'react-responsive-carousel'; 
 
 class BIO extends Component {
@@ -28,11 +27,7 @@ class BIO extends Component {
           </p>
           <br></br>
           <h2>
-            <ScrollableAnchor id={'aboutDepartment'}>
-              <div className="header">
                 About UWEC's biology department 
-              </div>
-            </ScrollableAnchor>
           </h2>
           <br></br>
           <div className="header">
@@ -69,11 +64,9 @@ class BIO extends Component {
           <p></p>
           <br></br>
           <h2>
-          <ScrollableAnchor id={'Staff'}>
           <div class = "header">
             Meet the Staff!
           </div>
-          </ScrollableAnchor>
           </h2>
           <div class = "carousel-wrapper">
             <Carousel infiniteLoop useKeyboardArrows autoPlay>
