@@ -1,7 +1,6 @@
 import React, { Component } from 'react'; 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel'; 
-import ScrollableAnchor from 'react-scrollable-anchor'; 
 import {Container, Col, Row} from 'react-bootstrap'; 
 //import Eric from './Pictures/Eric-Hendrickson.jpg';
 
@@ -30,11 +29,10 @@ class Compsi extends Component {
             </p>
             <br></br>
             <h2>
-              <ScrollableAnchor id={'aboutDepartment'}>
+            
                 <div className="header">
                   About UWEC's Computer Science department 
                 </div>
-              </ScrollableAnchor>
             </h2>
             <br></br>
             <div className="header">
@@ -55,11 +53,10 @@ class Compsi extends Component {
             <p></p>
             <br></br>
             <h2>
-            <ScrollableAnchor id={'Staff'}>
+          
             <div class = "header">
               Meet the Staff!
             </div>
-            </ScrollableAnchor>
             </h2>
             <div class = "carousel-wrapper">
               <Carousel infiniteLoop useKeyboardArrows autoPlay>
