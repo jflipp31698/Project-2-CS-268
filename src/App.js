@@ -7,7 +7,7 @@ import Login from './components/Login';
 import CSdept from './components/CSdept';
 import Mathd from './components/MATHdept';
 import ENG from './components/ENGdept'; 
-import biz from './components/BIZdept'; 
+import Sociology from './components/Sociologydept'; 
 import bio from './components/BIOdept'; 
 import Calendar from './components/Calendar';
 import Chat from './components/Chat';
@@ -26,7 +26,7 @@ class App extends Component {
               <Route path='/CSDept' component={CSdept} />
               <Route path = '/ENGDept' component={ENG}/>
               <Route path = '/MathDept' component={Mathd}/>
-              <Route path ='/BizDept' component={biz}/>
+              <Route path ='/SociologyDept' component={Sociology}/>
               <Route path ='/BioDept' component={bio}/>
               <Route path='/Calendar' component={Calendar} />
               <Route path='/Chat' component={Chat} />

@@ -9,6 +9,7 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^4.5.3",
     "mdbreact": "^5.0.0",
+    "mysql": "^2.18.1",
     "react": "^17.0.1",
     "react-big-calendar": "^0.30.0",
     "react-bootstrap": "^1.4.0",
