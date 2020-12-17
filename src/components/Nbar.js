@@ -25,7 +25,7 @@ function Nbar() {
          <NavDropdown title="Departments" id="collasible-nav-dropdown">
          <NavDropdown.Item href="/CSdept">Computer Science Department</NavDropdown.Item>
         <NavDropdown.Item href="/BIOdept">Biology Department</NavDropdown.Item>
-        <NavDropdown.Item href="/BIZdept">Business Department</NavDropdown.Item>
+        <NavDropdown.Item href="/Sociologydept">Sociology Department</NavDropdown.Item>
         <NavDropdown.Item href="/MATHdept">Mathematics Department</NavDropdown.Item>
         <NavDropdown.Item href="/ENGdept">English Department</NavDropdown.Item>
       </NavDropdown>
