@@ -2,7 +2,7 @@ import { Component } from "react";
 import React from 'react';
 import C from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import '../css/Calendar.css';
+import '../css/calendar.css';
 
 class Calendar extends Component {
     render() {

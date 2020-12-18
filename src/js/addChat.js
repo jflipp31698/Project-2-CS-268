@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../css/AddChat.css';
+import '../css/addChat.css';
 export class AddChat extends Component {
     state = {
         sender: "",

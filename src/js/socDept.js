@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Container, Col, Row, Card} from 'react-bootstrap'; 
 import { Carousel } from 'react-responsive-carousel'; 
 
-class  BIZ extends Component {
+class  soc extends Component {
     render () {
         return (
           <div className = "page">
@@ -173,4 +173,4 @@ class  BIZ extends Component {
       }
 }
 
-export default BIZ;
+export default soc;

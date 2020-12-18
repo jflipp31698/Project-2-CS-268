@@ -1,7 +1,7 @@
 import { Component } from "react";
 import React from 'react';
-import ChatList from './ChatList';
-import AddChat from './AddChat';
+import ChatList from './chatList';
+import AddChat from './addChat';
 import {v4 as uuid} from 'uuid';
 
 class Chat extends Component {

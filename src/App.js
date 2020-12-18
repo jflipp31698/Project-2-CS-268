@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Nbar from './components/Nbar';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import Login from './components/Login';
-import CSdept from './components/CSdept';
-import Mathd from './components/MATHdept';
-import ENG from './components/ENGdept'; 
-import Sociology from './components/Sociologydept'; 
-import bio from './components/BIOdept'; 
-import Calendar from './components/Calendar';
-import Chat from './components/Chat';
-import Contact from './components/Contact';
+import Nbar from './js/nBar';
+import Footer from './js/footer';
+import Home from './js/home';
+import Login from './js/login';
+import CSdept from './js/cSdept';
+import Mathd from './js/mathDept';
+import ENG from './js/engDept'; 
+import Sociology from './js/socDept'; 
+import bio from './js/biodept'; 
+import Calendar from './js/calendar';
+import Chat from './js/chat';
+import Contact from './js/contact';
+import Report from './js/report.js'
 
 class App extends Component {
 
@@ -31,6 +32,7 @@ class App extends Component {
               <Route path='/Calendar' component={Calendar} />
               <Route path='/Chat' component={Chat} />
               <Route path='/Contact' component={Contact} />
+              <Route path='/report' component={Report} />
           </Switch>
           <Footer/>
         </div>

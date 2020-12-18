@@ -7,7 +7,7 @@ var database = require("./database")
 
 
 database.connect((err) => {
-    if(err) throw err 
+    if(err) throw
 })
 app.use(cors()); 
 
