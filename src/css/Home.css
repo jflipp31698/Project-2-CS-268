@@ -6,26 +6,37 @@ html, body {
 
 .covid-message {
     background-color: red;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    width: 100%;
+    font-size: 1.25rem;
 }
 
 .welcome {
     color: #3b4d96;
-    background-color: white;
     padding: 10px;
     font-size: 2.5rem;
+}
+
+.main-image {
+    padding:0px 0px 100px 0px;
 }
 
 .main-image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: 5px solid #3b4d96;
+    border-radius: 10px;
 }
 
 img {
     border: 0;
     vertical-align: bottom;
     max-width: 100%;
-    
+}
+
+.about h2 {
+    color: #edac1a;
+    background-color:#3b4d96;
+    padding: 10px;
+    margin-bottom: 25px;
 }

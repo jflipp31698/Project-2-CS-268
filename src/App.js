@@ -10,7 +10,7 @@ import ENG from './components/ENGdept';
 import Sociology from './components/Sociologydept'; 
 import bio from './components/BIOdept'; 
 import Calendar from './components/Calendar';
-import Chat from './components/Chat';
+import Chat from './components/chat';
 import Contact from './components/Contact';
 
 class App extends Component {

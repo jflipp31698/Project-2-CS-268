@@ -6,7 +6,7 @@ import '../css/Contact.css';
 class Contact extends Component {
     render() {
         return (
-            <div className="form-container">
+            <div className="container">
                 <h1>Contact Us</h1>
                 <Form>
                 <Form.Group controlId="formBasicEmail">
