@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import '../css/AddChat.css';
 export class AddChat extends Component {
     state = {
         sender: "",
@@ -16,7 +16,9 @@ export class AddChat extends Component {
 
     render() {
         return (
-            <form onSubmit={this.onSubmit} style={{display: "flex"}}>
+            <div className="container">
+                <h2>Chat With Fellow Freshman</h2>
+                <form onSubmit={this.onSubmit} style={{display: "flex"}}>
                 <input 
                 type="text" 
                 name="sender"
@@ -28,7 +30,7 @@ export class AddChat extends Component {
                 <input 
                 type="text" 
                 name="message"
-                style={{flex: "10", padding: "5"}}
+                style={{flex: "10", padding: "5", margin: "0px 20px"}}
                 placeholder="Enter your Message..."
                 value={this.state.message}
                 onChange={this.onChange}
@@ -40,6 +42,7 @@ export class AddChat extends Component {
                 style={{flex: "1", backgroundColor: "green"}}
                 />
             </form>
+            </div>
         )
     }
 }

@@ -9,6 +9,9 @@ class Calendar extends Component {
         return (
             <div className="calendar">
                 <C className="c"/>
+                <div className = "link">
+                    <a href = "https://calendar.uwec.edu/MasterCalendar.aspx"> UWEC Official Calendar</a>
+                </div>
             </div>
         )
     }

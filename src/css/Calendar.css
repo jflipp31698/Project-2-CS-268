@@ -19,3 +19,12 @@ html, body {
     min-height: 400px;
 }
 
+.link{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.link a {
+    color: red; 
+}
